@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url('celsius-convert.jpg');
+    background-position: cover;
+    background-size: 1400px;
+}
+.container{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 32%;
+    height: 50vh;
+    background-color: white;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+   
+}
+.container h1{
+    font-size: 2.5rem;
+    padding-top: 10px;
+}
+.temp{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 70%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.num1{
+    border: none;
+    outline: none;
+}
+span{
+    background-color: aqua;
+
+}
+.celsius{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 10px;
+}
+.cel{
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    background-color: transparent;
+}
+.celsius p{
+    background-color: rgb(83, 188, 192);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 28px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    padding: 5px 13px;
+    background-color: rgb(154, 160, 160);
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.celsius1{
+    margin-top: 25px;
+}
